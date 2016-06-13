@@ -1,0 +1,39 @@
+{
+    "name":"ColdBox App Templates",
+    "version":"1.0.0",
+    "author":"Ortus Solutions <info@ortussolutions.com>",
+    "slug":"cbapptemplates",
+    "type":"projects",
+    "keywords":"coldbox,mvc,rest",
+    "homepage":"https://github.com/ColdBox/cbox-apptemplates",
+    "documentation":"https://github.com/ColdBox/cbox-apptemplates/blob/development/readme.md",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/ColdBox/cbox-apptemplates"
+    },
+    "bugs":"https://github.com/ColdBox/cbox-apptemplates/issues",
+    "shortDescription":"A collection of application templates for ColdBox MVC",
+    "license":[
+        {
+            "type":"Apache2",
+            "url":"http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    ],
+    "contributors":[
+        
+    ],
+    "ignore":[
+        "**/.*",
+        "tests",
+        "*/.md"
+    ],
+    "devDependencies":{
+        
+    },
+    "installPaths":{
+        
+    },
+    "dependencies":{
+        
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name":"OrmReloadInterceptor",
+    "version":"1.0.0",
+    "author":"Eric Peterson",
+    "location":"elpete/orm-reload-interceptor",
+    "homepage":"https://github.com/elpete/orm-reload-interceptor",
+    "documentation":"https://github.com/elpete/orm-reload-interceptor",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/elpete/orm-reload-interceptor"
+    },
+    "bugs":"https://github.com/elpete/orm-reload-interceptor/issues",
+    "slug":"orm-reload-interceptor",
+    "shortDescription":"Calls ORMReload() when the `ormReload=correct_password` is set in the URL.",
+    "changelog":"https://github.com/elpete/orm-reload-interceptor",
+    "type":"modules",
+    "keywords":[
+        "orm",
+        "ormReload",
+        "interceptors"
+    ],
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
+    "dependencies":{
+    },
+    "devDependencies":{
+        "testbox":"^2.3.0+00044",
+        "coldbox":"^4.2.0+00002"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"coldbox"
+    },
+    "scripts":{
+        
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
