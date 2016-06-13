@@ -11,7 +11,7 @@
     },
     "bugs":"https://github.com/elpete/orm-reload-interceptor/issues",
     "slug":"orm-reload-interceptor",
-    "shortDescription":"Calls ORMReload() when the `ormReload=correct_password` is set in the URL.",
+    "shortDescription":"Calls ORMReload() when the `ormReload=correct_password` is set in the URL or when `fwreinit` is called.",
     "changelog":"https://github.com/elpete/orm-reload-interceptor",
     "type":"modules",
     "keywords":[

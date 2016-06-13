@@ -1,9 +1,8 @@
-/**
-* The base interceptor test case will use the 'interceptor' annotation as the instantiation path to the interceptor
-* and then create it, prepare it for mocking, and then place it in the variables scope as 'interceptor'. It is your
-* responsibility to update the interceptor annotation instantiation path.
-*/
-component extends="coldbox.system.testing.BaseInterceptorTest" interceptor="OrmReloadInterceptor" {
+component
+    displayname="URLReloadTest"
+    extends="coldbox.system.testing.BaseInterceptorTest"
+    interceptor="URLReload"
+{
 
     function beforeAll() {
         configProperties = {};
@@ -11,7 +10,7 @@ component extends="coldbox.system.testing.BaseInterceptorTest" interceptor="OrmR
     }
     
     function run() {
-        describe( "OrmReloadInterceptor", function() {
+        describe( "URLReload", function() {
 
             describe( "should configure correctly", function(){
                 it( "can accept any value if no password is set", function(){
@@ -23,7 +22,7 @@ component extends="coldbox.system.testing.BaseInterceptorTest" interceptor="OrmR
                 it( "can set the password in the interceptor settings", function(){
                     configProperties = {
                         reloadPassword = "correct_password"
-                    }
+                    };
                     super.setup();
                     interceptor.configure();
                     expect( interceptor.$getProperty( "reloadPassword" ) )
