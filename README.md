@@ -1,5 +1,9 @@
 # ORM Reload Interceptor
 
+## Installation
+
+`box install ormreloadinterceptor`
+
 ## ORMReload with a URL flag
 
 Just like you can add `fwreinit=my_passsword` to the URL to reload your ColdBox application,
