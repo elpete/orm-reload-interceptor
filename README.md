@@ -2,7 +2,7 @@
 
 ## Installation
 
-`box install ormreloadinterceptor`
+`box install orm-reload-interceptor`
 
 ## ORMReload with a URL flag
 
